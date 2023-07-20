@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <div>
+        <a href="index.html">Home</a>&nbsp; |
+        <a href="login.html">Login</a>&nbsp; |
+        <a href="register.html">Register</a>
+    </div>
+    <hr>  
+    <form>
+        <fieldset>
+            <legend><font color="teal">Register System</font></legend>
+
+            <label for=""><font color="green">ป้อนชื่อ-สกุล  :</font></label><br>
+            <input type="text" name="name" placeholder="ชื่อ-สกุล" required><br>
+
+            <label for=""><font style="color: rgb(32, 212, 152);">ป้อนอีเมล :</font></label><br>
+            <input type="email" name="email" placeholder="อีเมล" required><br>
+
+            <label for="">ป้อนรหัสผ่าน</label><br>
+            <input type="password" name="password" placeholder="รหัสผ่าน" required><br>
+
+            <label for="">ป้อน sex :</label ><br>
+            <input type="radio" name="gender" value="male">Male<br> 
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+
+            <label for="">ที่อยู่ :</label><br>
+            <textarea name="address" cols="50" rows="3" placeholder="ที่อยู่"></textarea><br>
+
+            <input type="submit" value="ยืนยัน" style="color: rgb(36, 13, 210);">
+            <input type="submit" value="ยกเลิก" style="color: rgb(255, 0, 0);">
+        </fieldset>
+    </form>
+</body>
+</html>
